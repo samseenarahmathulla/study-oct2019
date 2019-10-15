@@ -48,3 +48,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# to run sidekiq from terminal and web - samseena
+gem "sidekiq",'~> 4.0.0'
+
+# to run sidekiq web - samseena
+gem 'sinatra', require: false
+gem 'slim'
