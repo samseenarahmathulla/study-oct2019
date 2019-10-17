@@ -36,6 +36,10 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  #rspec
+  # gem 'rspec-rails'
+  # to fix the error - Failure/Error: get :index ActionView::Template::Error: wrong number of arguments (given 2, expected 1)
+  gem 'rspec-rails', git: 'https://github.com/rspec/rspec-rails', branch: '4-0-dev'
 end
 
 group :test do
@@ -55,3 +59,6 @@ gem "sidekiq",'~> 4.0.0'
 # to run sidekiq web - samseena
 gem 'sinatra', require: false
 gem 'slim'
+
+#simplecov for test coverage
+gem 'simplecov', require: false,  group: :test
