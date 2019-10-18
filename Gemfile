@@ -40,6 +40,7 @@ group :development do
   # gem 'rspec-rails'
   # to fix the error - Failure/Error: get :index ActionView::Template::Error: wrong number of arguments (given 2, expected 1)
   gem 'rspec-rails', git: 'https://github.com/rspec/rspec-rails', branch: '4-0-dev'
+
 end
 
 group :test do
@@ -62,3 +63,5 @@ gem 'slim'
 
 #simplecov for test coverage
 gem 'simplecov', require: false,  group: :test
+#to fix the error - assert_template has been extracted to a gem. To continue using it - add `gem 'rails-controller-testing'` to your Gemfile.
+gem 'rails-controller-testing'

@@ -12,14 +12,20 @@
         1,
         null,
         1,
-        null,
-        null,
-        1,
-        1,
         1,
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
         1,
         null,
         null,
@@ -337,11 +343,11 @@
         1,
         null,
         1,
-        1,
+        2,
         null,
         null,
         1,
-        1,
+        2,
         null,
         null,
         1,
@@ -388,6 +394,13 @@
       ],
       "D:/samseena/myprojects/testapp/app/controllers/application_controller.rb": [
         1,
+        null
+      ],
+      "D:/samseena/myprojects/testapp/app/models/article.rb": [
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "D:/samseena/myprojects/testapp/spec/models/article_spec.rb": [
@@ -438,15 +451,8 @@
         null,
         null,
         null
-      ],
-      "D:/samseena/myprojects/testapp/app/models/article.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
       ]
     },
-    "timestamp": 1571307231
+    "timestamp": 1571364535
   }
 }
